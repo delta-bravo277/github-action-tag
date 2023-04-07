@@ -1,6 +1,6 @@
 name: 'Github Tag'
 description: 'Crete tag'
-author: 'Talentica'
+author: 'Custom Tag'
 runs:
   using: 'docker'
   image: 'Dockerfile'
