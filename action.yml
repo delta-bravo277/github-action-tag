@@ -13,4 +13,4 @@ outputs:
     description: 'The part of version which was bumped'
 branding:
   icon: 'git-merge'  
-  color: 'blue'
+  color: 'purple'
