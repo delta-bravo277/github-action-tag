@@ -1,6 +1,6 @@
-name: 'Github Tag Bump'
-description: 'Bump and push git tag on merge'
-author: 'Nick Sjostrom'
+name: 'Github Tag'
+description: 'Crete tag'
+author: 'Talentica'
 runs:
   using: 'docker'
   image: 'Dockerfile'
@@ -13,4 +13,4 @@ outputs:
     description: 'The part of version which was bumped'
 branding:
   icon: 'git-merge'  
-  color: 'purple'
+  color: 'blue'
