@@ -7,4 +7,6 @@ RUN apk --no-cache add bash git curl jq && npm install -g semver
 
 COPY entrypoint.sh /entrypoint.sh
 
+RUN ll
+
 ENTRYPOINT ["/entrypoint.sh"]
