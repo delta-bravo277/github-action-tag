@@ -4,6 +4,6 @@ LABEL "homepage"="https://github.com/delta-bravo277/github-action-tag"
 LABEL "maintainer"="Custom Action"
 
 RUN apk --no-cache add bash git curl jq && npm install -g semver
-
+RUN chmod +x entrypoint.sh
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
