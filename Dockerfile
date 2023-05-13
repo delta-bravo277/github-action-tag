@@ -5,5 +5,5 @@ LABEL "maintainer"="Custom Action"
 
 RUN apk --no-cache add bash git curl jq && npm install -g semver
 
-COPY entrypoint.sh /entrypoint.sh
+COPY script.sh /script.sh
 ENTRYPOINT ["/script.sh"]
