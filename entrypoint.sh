@@ -19,7 +19,7 @@ major_string_token=${MAJOR_STRING_TOKEN:-#major}
 minor_string_token=${MINOR_STRING_TOKEN:-#minor}
 patch_string_token=${PATCH_STRING_TOKEN:-#patch}
 none_string_token=${NONE_STRING_TOKEN:-#none}
-# branch_history=${BRANCH_HISTORY:-compare}
+branch_history=${BRANCH_HISTORY:-compare}
 
 git config --global --add safe.directory /github/workspace
 
